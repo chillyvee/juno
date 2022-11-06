@@ -132,3 +132,9 @@ replace (
 	github.com/gogo/protobuf => github.com/regen-network/protobuf v1.3.3-alpha.regen.1
 	google.golang.org/grpc => google.golang.org/grpc v1.33.2
 )
+
+// Temporary override for local snapshot restore
+replace github.com/cosmos/cosmos-sdk => ../cosmos-sdk
+
+// Temporary override for local snapshot restore
+replace github.com/tendermint/tendermint => ../tendermint
